@@ -1,12 +1,88 @@
 body
 {
 	font-size: 16px;
+	font-family: Verdana;
 }
 
+h1
+{
+	color: #630;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0.3em 0;
+	text-align: center;
+	width: 98%;
+}
+
+#personaje
+{
+	background: url("imagenes/personaje.png") no-repeat;
+	height: 230px;
+	position: relative;
+	top: -450px;
+	width: 155px;
+}
+
+.botones
+{
+	height: 100px;
+	padding: 0;
+	position: relative;
+	width: 80px;
+}
+
+#btn1
+{
+	background: url("imagenes/boton1.png") no-repeat;
+	left: 150px;
+	top: 240px;
+}
+
+#btn2
+{
+	background: url("imagenes/boton2.png") no-repeat;
+	left: 150px;
+	top: -80px;
+}
+
+#btn3
+{
+	background: url("imagenes/boton3.png") no-repeat;
+	left: 320px;
+	top: -150px;
+}
+
+#btn4
+{
+	background: url("imagenes/boton4.png") no-repeat;
+	left: 320px;
+	top: 50px;
+}
+
+#btn5
+{
+	background: url("imagenes/boton5.png") no-repeat;
+	left: 480px;
+	top: -140px;
+}
+
+#btn6
+{
+	background: url("imagenes/boton6.png") no-repeat;
+	left: 480px;
+	top: -480px;
+}
+
+#btn7
+{
+	background: url("imagenes/boton7.png") no-repeat;
+	left: 630px;
+	top: -560px;
+}
 
 #interfaz
 {
-	border: 1px solid #000;
+	background-color: #f0d2a3;
 	height: 600px;
 	margin: 0 auto;	
 	width: 800px;
@@ -18,40 +94,60 @@ body
 	width: 100%;
 }
 
+#st_nav_der
+{
+	border-left: 1px solid #ff903a;
+}
+
+#st_nav_izq
+{
+	border-right: 1px solid #ff903a;
+}
+
+.st_navs img
+{
+	/*background: url("imagenes/flecha.png") no-repeat;
+	padding-top:10em;*/ 
+	margin-top: 10em;
+}
+
 .st_navs
 {
-	background-color: #630;
+	/*background-color: #ff903a;*/
 	display: inline-block;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	width: 36px;
+	vertical-align: top;
+	width: 33px;
 }
 
 
 #st_contenidos
 {
-	background-color: #0f0;
+	background: url("imagenes/interfaz.png") no-repeat;
 	display: inline-block;
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	vertical-align: top;
 	width: 720px;
 }
 
 #menu
 {
 	height: 80px;
+	background-color: #7e5634;
 }
 
 #menu_central
 {
-	background-color: #ff0;
+	background:url("imagenes/centro.png") no-repeat center center;
 	display: inline-block;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	width: 28%
+	width: 29%
 }
 
 .menu_lateral
@@ -61,15 +157,34 @@ body
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	width: 10%
+	width: 14%
+}
+
+#menu_lateral1
+{
+	background:url("imagenes/unisangil.png") no-repeat center center;
+}
+
+#menu_lateral2
+{
+	background:url("imagenes/menu.png") no-repeat center center;
 }
 
 .menu_internos
 {
-	background-color: #ff0;
 	display: inline-block;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	width: 25%;
+	width: 20%;
+}
+
+#menu_interno1
+{
+	background:url("imagenes/topic_izq.png") no-repeat center right;
+}
+
+#menu_interno2
+{
+	background:url("imagenes/topic_der.png") no-repeat center left;
 }
