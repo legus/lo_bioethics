@@ -1,0 +1,75 @@
+body
+{
+	font-size: 16px;
+}
+
+
+#interfaz
+{
+	border: 1px solid #000;
+	height: 600px;
+	margin: 0 auto;	
+	width: 800px;
+}
+
+#stage
+{
+	height: 520px;
+	width: 100%;
+}
+
+.st_navs
+{
+	background-color: #630;
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 36px;
+}
+
+
+#st_contenidos
+{
+	background-color: #0f0;
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 720px;
+}
+
+#menu
+{
+	height: 80px;
+}
+
+#menu_central
+{
+	background-color: #ff0;
+	display: inline-block;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 28%
+}
+
+.menu_lateral
+{
+	background-color: #ff0;
+	display: inline-block;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 10%
+}
+
+.menu_internos
+{
+	background-color: #ff0;
+	display: inline-block;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 25%;
+}
