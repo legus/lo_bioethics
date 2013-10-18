@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head lang="es">
+		<title>Introducción</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+		<script type="text/javascript" src="prefixfree.min.js"></script>
+	</head>
+	<body>
+		<div id="contenido_interactivo">
+			<video controls height="520">
+			     <!--if Firefox -->  
+			    <source src="intro.ogv" type="video/ogg" />
+			    <!-- if Safari/Chrome--> 
+			    <source src="intro.mp4" type='video/mp4; codecs="avc1.42E01E,mp4a.40.2"'/>
+			    <source src="intro.webm" type='video/webm; codecs="vp8,vorbis"'>
+			    <!-- If the browser doesn't understand the <video> element-->
+			    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="720" height="480" id="intro">
+				    <param name="movie" value="intro.swf" />
+				    <param name="allowScriptAccess" value="always" />
+				    <!--[if !IE]>-->
+				    <object type="application/x-shockwave-flash" data="intro.swf" width="720" height="480">
+				        <embed src="intro.swf" width="720" height="480"></embed>
+				    <!--<![endif]-->
+				    	<div id="con_texto">
+							<h1>Introduction</h1>
+							<div id="contenido">
+								<p>
+									<img src="imagenes/img1.png" class="img_right">
+									The Ethical and Morality aspects in old times, and even in recent times, were similarly used to talk about behaviors and attitudes of people in normal situations, with the purpose to universalize some principles and criteria (with some mystical – religious influence) about the correct form to proceed in social relationships and guarantee the peaceful and harmonic coexistence. After some time, and thanks to the development of Philosophy and Humanities, it was possible to clarify the purpose of ethics and morality as well.
+								</p>
+								<p>
+									<img src="imagenes/img2.png" class="img_left">
+									Bioethics is the systematic and interdisciplinary study of people’s actions about vegetable, animal and human lives, considering its anthropological and ethical implications, with the purpose of having a rational view of the things that are beneficial for the human being, the future generations and the ecosystem, in order to find possible technical – scientific solutions and/or design an appropriate legal regulation.
+								</p>
+							</div>
+						</div>
+						<p id="mensaje">Para poder usar los elementos multimedia de este material le recomendamos actualizar su navegador en el siguiente enlace <a href="http://www.google.com/intl/es/chrome/">Actualizar</a></p>
+				    <!--[if !IE]>-->
+				    </object>
+				    <!--<![endif]-->
+				</object>
+			</video>
+		</div>
+	</body>
+</html>

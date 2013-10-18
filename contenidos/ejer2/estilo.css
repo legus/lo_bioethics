@@ -1,0 +1,213 @@
+body{
+	background-color: #fff;
+	color: #630;
+	font-family:Verdana;
+	font-size:16px;
+	text-align: center;
+}
+
+em{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 1.5em;
+	margin: 0em;
+	padding: 0px;
+}
+
+#bloque
+{
+	display: inline-block;
+	margin:0;
+	vertical-align: top;
+	width: 100%;
+	*display: inline;
+	zoom: 1;
+}
+
+#contenido_interactivo{
+	background-color: #fff;
+	border-radius: .5em;
+	margin: 0 auto;
+	width:100%;
+}
+
+#encabezado
+{
+	background-color: #996633;
+	border-radius: 0.2em;
+}
+
+#encabezado_t
+{
+	color:white;
+	display: inline-block;
+	font-size:0.9em;
+	font-weight:bold;
+	height:30px;
+	margin:0px;
+	padding:0.1em 0;
+	text-align:center;
+	width: 83%;
+	*display: inline;
+	zoom: 1;
+}
+
+#encabezado_opc
+{
+	border-left: 1px dashed #000;
+	display: inline-block;
+	overflow:hidden;
+	padding:1% 0;
+	vertical-align: top;
+	width:15%;
+	*display: inline;
+	zoom: 1;
+}
+
+/*#encabezado_moral
+{
+	background-color: blue;
+}
+
+#encabezado_ethic
+{
+	background-color: green;
+}*/
+
+.encabezados_opc
+{
+	color:#fff;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	width:45%;
+	*display: inline;
+	zoom: 1;
+}
+
+#recuadro{
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	height: 100%;
+	margin:0px;
+	padding:0px;
+	transition: all 2s ease;
+	vertical-align: top;
+	width:98%;
+	*display: inline;
+	zoom: 1;
+}
+
+#reiniciar
+{
+	background-color: #f1dbc6;
+	border: 2px solid #b4853d;
+	border-radius: 0.5em;
+	box-shadow: #ccc 2px 2px 5px;
+	color: #b4853d;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	text-shadow:#ccc 1px 1px 3px;
+	visibility: hidden;
+	width: 10%;
+	transition: all 0.2s ease-out;
+}
+
+.botonera{
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	margin:0 auto;
+	vertical-align: top;
+	width:15%;
+	*display: inline;
+	zoom: 1;
+}
+
+.recuadros{
+	background-color: #f0d2a3;
+	border-bottom: 1px solid #996633;
+	border-top: 1px solid #996633;
+	height: 100%;
+	margin: 0.3% 0;
+}
+
+.textos
+{
+	/*border: 1px solid #000;*/
+	font-size: 0.9em;
+	display: inline-block;
+	padding: 0.1em 0;
+	text-align: justify;
+	vertical-align: top;
+	width: 83%;
+	*display: inline;
+	zoom: 1;
+}
+
+.botones{
+	background-color: #ecc68a;
+	border-radius:0.2em;
+	display: inline-block;
+	height:50px;
+	margin: 0.2em auto;
+	padding: 0;
+	transition: all 0.2s ease-out;
+	width:45%;
+	*display: inline;
+	zoom: 1;
+}
+
+
+.botones:hover, #reiniciar:hover
+ {
+ 	background-color: #b4853d;
+ 	box-shadow: #666 2px 2px 3px;
+ 	color:white;
+ 	cursor:pointer;
+ }
+
+ .img
+{
+	text-align: center;
+	margin: 10% 0 0 0;
+}
+
+#mensaje
+{
+	border: 1px solid green;
+	border-radius: 0.5em;
+	color: #666;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0.2em;
+	width: 80%;
+}
+
+.botones_cambio1
+{
+	background-color: #69472c;
+	color: white;
+}
+
+.botones_cambio2
+{
+	background-color: #69472c;
+	color: white;
+}
+
+.rec_bajar
+{
+	height: 0%;
+	width: 0%;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}

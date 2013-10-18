@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head lang="es">
+		<title>Bienvenida</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+		<script type="text/javascript" src="prefixfree.min.js"></script>
+	</head>
+	<body>
+		<div id="contenido_interactivo">
+			<video controls height="520">
+			     <!--if Firefox -->  
+			    <source src="bienvenida.ogv" type="video/ogg" />
+			    <!-- if Safari/Chrome--> 
+			    <source src="bienvenida.mp4" type='video/mp4; codecs="avc1.42E01E,mp4a.40.2"'/>
+			    <source src="bienvenida.webm" type='video/webm; codecs="vp8,vorbis"'>
+			    <!-- If the browser doesn't understand the <video> element-->
+			    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="720" height="480" id="bienvenida">
+				    <param name="movie" value="bienvenida.swf" />
+				    <param name="allowScriptAccess" value="always" />
+				    <!--[if !IE]>-->
+				    <object type="application/x-shockwave-flash" data="bienvenida.swf" width="720" height="480">
+				        <embed src="bienvenida.swf" width="720" height="480"></embed>
+				    <!--<![endif]-->
+				    	<div id="con_texto">
+							<br><h1>WELCOME</h1><br><br>
+							<div id="contenido">
+								<p>
+									<img src="imagenes/img1.png" class="img_left">
+									<br>To start searching, place the cursor on the hints around the map, so you will know the different topics on them, click on them to enter. Right inside, you can move from topic to topic by clicking on the arrows located on the right and left side.
+								</p>
+								<p>
+									<img src="imagenes/img2.png" class="img_right">
+									<br><br>As soon as you end up studying the topic, you can return to the main screen by clicking on “MENU” which is located at the bottom, right side of the screen, or you may surf from hint to hint without going back to the main screen by clicking the arrows located at the bottom central side which say “PREVIOUS TOPIC” or “NEXT TOPIC”
+								</p>
+								<h2>!GOOD LUCK IN THIS JOURNEY!</h2>
+							</div>
+						</div>
+						<p id="mensaje">Para poder usar los elementos multimedia de este material le recomendamos actualizar su navegador en el siguiente enlace <a href="http://www.google.com/intl/es/chrome/">Actualizar</a></p>
+				    <!--[if !IE]>-->
+				    </object>
+				    <!--<![endif]-->
+				</object>
+			</video> 
+		</div>
+	</body>
+</html>

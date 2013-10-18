@@ -1,0 +1,193 @@
+body{
+	background-color: #fff;
+	color: #630;
+	font-family:Verdana;
+	font-size:16px;
+	text-align: center;
+}
+
+em{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 1.2em;
+	margin: 0em;
+	padding: 0px;
+}
+
+#bloque
+{
+	display: inline-block;
+	margin:0;
+	vertical-align: top;
+	width: 100%;
+	*display: inline;
+	zoom: 1;
+}
+
+#contenido_interactivo{
+	background-color: #fff;
+	border-radius: .5em;
+	height:100%;
+	margin: 0 auto;
+	width:100%;
+}
+
+#encabezado
+{
+	border-radius: 0.2em;
+}
+
+#encabezado_t
+{
+	color:#996633;
+	font-size:0.8em;
+	font-weight:bold;
+	height:20px;
+	margin:0px;
+	padding:0.1em 0;
+	text-align:center;
+	width: 100%;
+}
+
+#navegacion
+{
+	/*border: 1px solid #000;*/
+	margin: 0.5em 0;
+}
+
+
+#recuadro{
+	/*border: 1px solid #000;*/
+	height: 100%;
+	margin:0 auto;
+	padding:0px;
+	width:98%;
+}
+
+#reiniciar
+{
+	background-color: #f1dbc6;
+	border: 2px solid #b4853d;
+	border-radius: 0.5em;
+	box-shadow: #ccc 2px 2px 5px;
+	color: #b4853d;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	text-shadow:#ccc 1px 1px 3px;
+	visibility: hidden;
+	width: 10%;
+	transition: all 0.2s ease-out;
+}
+
+.botonera{
+	/*border: 1px solid #000;*/
+	margin:0 auto;
+	width:98%;
+}
+
+.botones1, .botones2, .botones3, .botones4{
+	/*border: 1px solid #000;*/
+	background-color: #ecc68a;
+	border-radius:0.2em;
+	font-size: 0.8em;
+	height:45px;
+	padding: 0.1em;
+	margin: 5px 0;
+	text-align: justify;
+	transition: all 0.2s ease-out;
+	vertical-align: top;
+	width:98%;
+}
+
+.recuadros{
+	background-color: #f0d2a3;
+	border-bottom: 1px solid #996633;
+	border-top: 1px solid #996633;
+	display: none;
+	margin: 0.3% 0;
+	transition: all 0.2s ease-out;
+}
+
+.preguntas
+{
+	display: inline-block;
+	margin: 0;
+	*display: inline;
+	zoom: 1;
+}
+
+.preguntas:hover
+ {
+ 	cursor:pointer;
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+ }
+
+.textos
+{
+	background-color: #996633;
+	border-radius: 0.2em;
+	color:white;
+	font-size:0.9em;
+	padding: 0.1em 0.3em;
+	margin:0.2em auto;
+	text-align: justify;
+	width: 98%;
+}
+
+
+.botones1:hover, .botones2:hover, .botones3:hover, .botones4:hover, #reiniciar:hover
+ {
+ 	background-color: #b4853d;
+ 	box-shadow: #666 2px 2px 3px;
+ 	color:white;
+ 	cursor:pointer;
+ }
+
+ .img
+{
+	float: left;
+	margin: 0 0.2em;
+}
+
+#mensaje
+{
+	border: 1px solid green;
+	border-radius: 0.5em;
+	color: #666;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0.2em;
+	width: 80%;
+}
+
+.botones_cambio1
+{
+	background-color: #69472c;
+	color: white;
+}
+
+.botones_cambio2
+{
+	background-color: #69472c;
+	color: white;
+}
+
+.rec_bajar
+{
+	height: 0%;
+	width: 0%;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}

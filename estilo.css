@@ -29,6 +29,16 @@ h1
 	padding: 0;
 	position: relative;
 	width: 80px;
+	transition: all 0.2s ease-out;
+}
+
+.botones:hover, .st_navs:hover, .menu_lateral:hover, .menu_internos:hover
+{
+	cursor:pointer;
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
 }
 
 #btn1
@@ -91,17 +101,8 @@ h1
 #stage
 {
 	height: 520px;
+	margin: 0 auto;
 	width: 100%;
-}
-
-#st_nav_der
-{
-	border-left: 1px solid #ff903a;
-}
-
-#st_nav_izq
-{
-	border-right: 1px solid #ff903a;
 }
 
 .st_navs img
@@ -113,13 +114,15 @@ h1
 
 .st_navs
 {
-	/*background-color: #ff903a;*/
 	display: inline-block;
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	transition: all 0.2s ease-out;
 	vertical-align: top;
 	width: 33px;
+	*display: inline;
+	zoom: 1;
 }
 
 
@@ -132,6 +135,8 @@ h1
 	padding: 0;
 	vertical-align: top;
 	width: 720px;
+	*display: inline;
+	zoom: 1;
 }
 
 #menu
@@ -147,7 +152,21 @@ h1
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	width: 29%
+	vertical-align: top;
+	width: 29%;
+	*display: inline;
+	zoom: 1;
+}
+
+#menu_central p
+{
+	color: #f00;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 1em auto;
+	padding: 0;
+	width: 160px;
+	text-align: center;
 }
 
 .menu_lateral
@@ -157,7 +176,10 @@ h1
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	width: 14%
+	transition: all 0.2s ease-out;
+	width: 14%;
+	*display: inline;
+	zoom: 1;
 }
 
 #menu_lateral1
@@ -176,7 +198,10 @@ h1
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
+	transition: all 0.2s ease-out;
 	width: 20%;
+	*display: inline;
+	zoom: 1;
 }
 
 #menu_interno1
@@ -187,4 +212,17 @@ h1
 #menu_interno2
 {
 	background:url("imagenes/topic_der.png") no-repeat center left;
+}
+
+#frame
+{	
+	border-radius: 5px; 
+	border: 1px solid #630;
+	display: none;
+	height: 519px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -966px;
+	width: 720px;
 }

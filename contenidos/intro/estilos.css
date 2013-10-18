@@ -1,0 +1,58 @@
+body
+{
+	color: #630;
+	font-family: verdana;
+	font-size: 16px;
+	text-align: center;
+}
+
+h1
+{
+	margin: 0 0 0.5em 0;
+	padding: 0px;
+}
+
+img
+{
+	margin: 0.4em;
+}
+
+#contenido
+{
+	margin:0 0.2em; 
+	padding: 0.5em;
+	text-align: justify;
+}
+
+#contenido p
+{
+	text-align: justify;
+	margin: 0.2em;
+}
+
+#contenido_interactivo
+{
+	background-color: #f0d2a3;
+	height: 520px;
+	margin: 0 auto;
+	width:720px;
+}
+
+#mensaje{
+	color: #ff6600;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 3px;
+	text-align: center;
+}
+
+.img_left
+{
+	float: left;
+}
+
+.img_right
+{
+	float: right;
+}
