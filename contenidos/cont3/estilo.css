@@ -17,6 +17,7 @@ h1{
 
 h2{
 	color:rgb(229, 163, 30);
+	display: inline-block;
 	font-size:1.2em;
 	font-weight:bold;
 	height:30px;
@@ -24,6 +25,8 @@ h2{
 	padding-top:5px;
 	text-align:center;
 	width:680px;
+	*display: inline;
+	zoom: 1;
 }
 ul{
 	margin: 0px;
@@ -101,6 +104,8 @@ li{
 	margin:2em 0.3em 0 0.3em;
 	text-align: center;
 	width:660px;
+	*display: inline;
+	zoom: 1;
 }
 
 #rec0 p{
@@ -119,6 +124,10 @@ li{
 	zoom: 1;
 }
 
+#rec9 h2
+{
+	width: 80%;
+}
 
 #recuadro{
 	height:250px;
@@ -151,8 +160,11 @@ li{
 }
 
 .imgs1{
+	display: inline-block;
 	float: right;
 	margin-left: 10px;
+	*display: inline;
+	zoom: 1;
 }
 
 .imgs2{
